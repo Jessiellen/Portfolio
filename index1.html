@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body>
+    <!-- Inicio do Portfolio -->
+    <header>
+        <div>
+            <img src="img/logo.png" id="imagemPerfil">
+            <nav class="menu">
+
+                <a class="SobreMeButton" href="#">Sobre Me</a>
+                <a class="SkillsButton" href="#">Skills</a>
+                <a class="PortfolioButton" href="#">Portfolio</a>
+                <a class="ContatosButton" href="#">Contatos</a>
+                <nav>
+        </div>
+    </header>
+    <div class="perfil">
+        <img src="img/perfil.PNG" id="imagemPerfil">
+        <p class="textperfil">Olá, meu nome é Jessiellen Souza. <br />
+            Sou Web Developer com residência em Portugal. <br />
+        </p>
+    </div>
+
+    <!-- Meio do Portfolio -->
+    <main>
+        <section>
+            <h1 class="SobreMe">Sobre Me</h1>
+            <h2>Quem é Jessiellen Souza?</h2>
+            <p class="apresentação">Uma futura desenvolvedora, estudante Web Developer há 4 meses que ao optar por ser desenvolvedor web, percebeu que poderia usar seu lado criativo para projetar e seu lado lógico para codificar.
+                Além disso, sou uma pessoa típica normal que gosta de ler bons livros, ouvir músicas, viajar, mimar meus dois gatos e estar com os amigos, quando não estou trabalhando ou estudando, claro.
+                Estou disponível, caso deseje trabalhar comigo. <br />
+                Envie-me um e-mail e conversaremos.
+            <h3>Habilidades</h3>
+            <h4>Minhas Formações</h4>
+            <section id="Informação">
+            <div class="inf">
+                    <img class="inf-img" src="img/Imagem1.png">  
+                    <h1 class="inf-title">Ensino Secundário</h1>
+                    <p class="inf-description" style="text-align:center">
+                        31/12/2011 - 30/12/2015 Manaus, Brasil <br />
+                        Ensino Secundário Completo <br />
+                        Colégio Brasileiro Pedro Silvestre
+                    </p>
+                </div>
+                <div class="inf">
+                    <img class="inf-img" src="img/Imagem2.png" />
+                    <h1 class="inf-title">Ciências da Educação</h1>
+                    <p class="inf-description" style="text-align:center">
+                        10/2015 - Manaus, Brasil <br />
+                        Ciências da Educação <br />
+                        Universidade do Estado do Amazona <br />
+                    </p>
+                </div>
+                <div class="inf">
+                    <img class="inf-img" src="img/Imagem3.png" />
+                    <h1 class="inf-title">Ensino Tecnológico</h1>
+                    <p class="inf-description"style="text-align:center">
+                        02/10/2023 - ATUAL <br />
+                        Faro, Portugal <br />
+                        Web Developer - ETIC <br />
+                    </p>
+                </div>
+        </section>
+             <h1 class="Skill" id="Skill">SKILLS</h1>
+                <section id="Skills">
+                    <div class="card">
+                        <img class="card-img" src="img/Source Code.png"> 
+                        <p class="card-description">WEB DEVELOPER</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/Developer.png" />
+                        <p class="card-description">PROGAMAÇÃO 1</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/Merge Git.png" />
+                        <p class="card-description">METODOLOGIAS DE PROGRAMAÇÃO</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="img/Web Design.png" />
+                        <p class="card-description">UI & UX <br/>
+                            DESIGNING </p>
+                    </div>
+        </section>
+
+        <section class="slider">
+            <h1 class="portfolio">Portfolio</h1>
+            <div class="slider-box">
+                <img src="img/slider(1).png" alt="slide 1">
+                <img src="img/slider(2).png" alt="slide 2">
+        </div>
+        <div id="botoes">
+        <button class="buttons" id="esquerdo"><</button>
+        <button class="buttons" id="direito">></button>
+    </div>
+
+        </section>
+
+        <section style="display: flex; flex-direction: row; gap: 90px;">
+            <div style="display:flex; flex-direction:row; justify-content: flex-start; width: 50%; gap: 200px;">
+            <nav class="Contatos">
+                <h1 class="contatos">Contatos</h1>
+                <h2 class="textContatos">Entre em contato comigo!</h2>
+                <p class="MensagemContato" style="text-align: left;">
+                    Caso tenha gostado do meu trabalho não hesite em entrar em contacto comigo. <br />
+                    Me envie uma mensagem e vamos criar algo incrivel.
+                </p>
+                <div class="redes-sociais">
+                    <a><img class="socia-midia" src="img/email.png" />
+                    <a><img class="socia-midia" src="img/in.png" />
+                    <a><img class="socia-midia" src="img/insta.png" />
+                    <a><img class="socia-midia" src="img/fac.png" />
+                    </nav>
+
+                <div>
+                <form class="form">
+                    <label for="Nome"> Nome:</label>
+                    <input type="text" id="Nome" required />
+
+                    <label for="Email">Email:</label>
+                    <input type="Email" id="Email" required />
+
+                    <label for="Mensagem">Mensagem:</label>
+                    <textarea name="Mensagem" id="Mensagem" required></textarea>
+
+                    <button>Enviar</button>
+                </form>
+                </div>
+                </section>
+                </main>
+            </body>
+
+    <!-- Fim do Portfolio -->
+    <footer>
+
+    <class="rodape" id="contato">
+        <div class="rodape-div">
+    
+            <div class="rodape-div-1">
+                <div class="rodape-div-1-coluna">
+                    <img class="imgfooter" src="img/logo.png">
+                </div>
+            </div>
+            <div class="rodape-div-2">
+                <div class="rodape-div-2-coluna">
+                    <span><b>Contatos</b></span>
+                    <p>jessiellen@hotmail.com</p>
+                    <p>+55 932 932653067</p>
+                </div>
+            </div>
+            <div class="rodape-div-3">
+                <div class="rodape-div-3-coluna">
+                    <span><b>Outros</b></span>
+                    <p>Políticas de Privacidade</p>
+                </div>
+            </div>
+        </div>
+        <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+    </footer>
+</html>
